@@ -7,19 +7,19 @@ export default function Navbar() {
   const features = [
     {
       name: "Todo List",
-      img: "/images/icon-todo.svg",
+      img: "/Intro_Section_Dropdown/images/icon-todo.svg",
     },
     {
       name: "Calendar",
-      img: "/images/icon-calendar.svg",
+      img: "/Intro_Section_Dropdown/images/icon-calendar.svg",
     },
     {
       name: "Reminders",
-      img: "/images/icon-reminders.svg",
+      img: "/Intro_Section_Dropdown/images/icon-reminders.svg",
     },
     {
       name: "Planning",
-      img: "/images/icon-planning.svg",
+      img: "/Intro_Section_Dropdown/images/icon-planning.svg",
     },
   ];
 
@@ -46,7 +46,7 @@ export default function Navbar() {
   return (
     <header className="header">
       <a href="#" className="logo">
-        <img src="/images/logo.svg" alt="SNAP" />
+        <img src="/Intro_Section_Dropdown/images/logo.svg" alt="SNAP" />
       </a>
 
       {open && <div className="overlay" onClick={handleClickBurger}></div>}
@@ -79,7 +79,7 @@ export default function Navbar() {
 
       <button className={`hamburger`} onClick={handleClickBurger}>
         <img
-          src={open ? `/images/icon-close-menu.svg` : `/images/icon-menu.svg`}
+          src={open ? `/Intro_Section_Dropdown/images/icon-close-menu.svg` : `/Intro_Section_Dropdown/images/icon-menu.svg`}
           alt="menu"
         />
       </button>

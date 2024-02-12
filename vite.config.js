@@ -7,5 +7,6 @@ export default defineConfig({
     port:3000
   },
   plugins: [react()],
-  base:'/Intro_Section_Dropdown/'
+  base:'/Intro_Section_Dropdown/',
+  
 })

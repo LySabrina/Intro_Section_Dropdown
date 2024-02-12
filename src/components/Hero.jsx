@@ -6,11 +6,11 @@ export default function Hero() {
       <div className="hero__img__container">
         <picture>
           <source
-            srcSet="/images/image-hero-desktop.png"
+            srcSet="/Intro_Section_Dropdown/images/image-hero-desktop.png"
             media="(min-width:50em)"
           />
           <img
-            src="/images/image-hero-mobile.png"
+            src="/Intro_Section_Dropdown/images/image-hero-mobile.png"
             alt="Hero"
             className="hero__img"
           />
@@ -29,16 +29,16 @@ export default function Hero() {
 
         <ul className="hero__info__sponsor">
           <li className="sponsor">
-            <img src="/images/client-databiz.svg" alt="Databiz" />
+            <img src="/Intro_Section_Dropdown/images/client-databiz.svg" alt="Databiz" />
           </li>
           <li className="sponsor">
-            <img src="/images/client-audiophile.svg" alt="Audophile" />
+            <img src="/Intro_Section_Dropdown/images/client-audiophile.svg" alt="Audophile" />
           </li>
           <li className="sponsor">
-            <img src="/images/client-meet.svg" alt="Meet" />
+            <img src="/Intro_Section_Dropdown/images/client-meet.svg" alt="Meet" />
           </li>
           <li className="sponsor">
-            <img src="/images/client-maker.svg" alt="Maker" />
+            <img src="/Intro_Section_Dropdown/images/client-maker.svg" alt="Maker" />
           </li>
         </ul>
       </div>

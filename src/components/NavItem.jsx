@@ -31,8 +31,8 @@ export default function NavItem({ items, title, className }) {
             <img
               src={
                 open
-                  ? "/images/icon-arrow-up.svg"
-                  : "/images/icon-arrow-down.svg"
+                  ? "/Intro_Section_Dropdown/images/icon-arrow-up.svg"
+                  : "/Intro_Section_Dropdown/images/icon-arrow-down.svg"
               }
               alt="arrow"
             />
